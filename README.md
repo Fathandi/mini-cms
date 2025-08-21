@@ -78,12 +78,17 @@ project/
   {
     "name": "Fathih Apriandi",
     "description": "Web Developer & Backend PHP Enthusiast. Passionate about creating efficient and scalable web applications.",
-    "image": "https://dummyimage.com/600x400/4F46E5/FFFFFF?text=Fathih+A"
+    "image": "https://dummyimage.com/600x400/4F46E5/FFFFFF?text=Fathih"
+  },
+  {
+    "name": "John Doe",
+    "description": "Project Manager. Love to create beautiful and user-friendly interfaces.",
+    "image": "https://dummyimage.com/600x400/4F46E5/FFFFFF?text=John"
   },
   {
     "name": "Jane Smith",
     "description": "UI/UX Designer & Content Creator. Love to create beautiful and user-friendly interfaces.",
-    "image": "https://dummyimage.com/600x400/EC4899/FFFFFF?text=Jane+S"
+    "image": "https://dummyimage.com/600x400/EC4899/FFFFFF?text=Jane"
   }
 ]
 ```
