@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Belajar PHP Native untuk Pemula",
+    "slug": "belajar-php-native-pemula",
+    "content": "PHP adalah bahasa pemrograman server-side yang sangat populer untuk pengembangan web. Artikel ini akan membahas dasar-dasar PHP mulai dari sintaks hingga praktik terbaik."
+  },
+  {
+    "title": "Mengenal JSON dan Penggunaannya",
+    "slug": "mengenal-json-dan-penggunaannya", 
+    "content": "JSON (JavaScript Object Notation) adalah format pertukaran data yang ringan dan mudah dibaca. Format ini sangat cocok untuk aplikasi web modern."
+  }
+]
