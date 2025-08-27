@@ -149,30 +149,6 @@ if (!localStorage.getItem("sectionData")) {
         localStorage.setItem("sectionData", data); // simpan ke localStorage
     });
 }
-
-// Setiap 5 detik lakukan pengecekan perubahan file
-setInterval(() => {
-    // Cek artikel.json
-    fetch("data/artikel.json")
-        .then(res => res.text())
-        .then(newData => {
-            // Kalau data berubah dibanding cache → reload halaman
-            if (localStorage.getItem("artikelData") !== newData) {
-                localStorage.setItem("artikelData", newData);
-                location.reload();
-            }
-        });
-
-    // Cek section.json
-    fetch("data/section.json")
-        .then(res => res.text())
-        .then(newData => {
-            if (localStorage.getItem("sectionData") !== newData) {
-                localStorage.setItem("sectionData", newData);
-                location.reload();
-            }
-        });
-}, 5000); // cek tiap 5 detik
 </script>
 
 </body>
